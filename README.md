@@ -2,8 +2,7 @@
 
 A simple money tracker application built with the MERN stack (MongoDB, Express.js, React, Node.js). This application allows users to input transactions with a combined amount-name field, date and time of transaction, and a short description. The recorded transactions are displayed on the same page, and users can easily delete any of them.
 
-![App Screenshot](src/assets/screenshot1.png)
-![App Screenshot](src/assets/screenshot2.png)
+![App Screenshot](src/assets/screenshot1.png) 
 
 ## Features
 
