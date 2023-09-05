@@ -19,6 +19,7 @@ A simple money tracker application built with the MERN stack (MongoDB, Express.j
 
 - Node.js
 - MongoDB
+- yarn
 
 ### Installation
 
@@ -54,7 +55,7 @@ yarn run server
 yarn start
 ```
 
-The app should now be running on `http://localhost:4000/`.
+The app should now be running on `http://localhost:3000/`.
 
 ### Environment Variables
 
