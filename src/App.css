@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #030406f5;
+  color: #ddd;
+}
+main {
+  max-width: 360px;
+  margin: 30px auto;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+h1 span {
+  color: #1c1;
+}
+h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-size: 1.8rem;
+}
+h2 span {
+  font-weight: 400;
+}
+.deleteAll {
+  width: 70px;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #a93b3b;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.deleteAll:hover {
+  background-color: #590303;
+  box-shadow: 0px 0px 1px 1px;
+}
+.deleteAll:active {
+  border: 1px solid sandybrown;
+}
+
+form {
+  margin-top: 20px;
+}
+form input {
+  width: 100%;
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid #30313d;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+form input[type="datetime-local"] {
+  color: #777;
+}
+
+.validity {
+  color: rgb(203, 34, 34);
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+form div.basic {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ddd;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #4a4b53cd;
+  color: whitesmoke;
+}
+div.transactions {
+  margin-top: 10px;
+}
+div.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1px solid #30313d;
+}
+div.transaction:first-child {
+  border-top: 0;
+}
+
+div.transaction div.name {
+  font-size: 1rem;
+}
+div.transaction div.description {
+  font-size: 0.7rem;
+  color: #888;
+}
+
+div.right {
+  text-align: right;
+}
+div.rightTop {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 5px;
+}
+
+div.price.green {
+  color: #1c1;
+}
+
+div.price.red {
+  color: #c11;
+}
+
+.deleteTransaction {
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  align-self: center;
+  color: #9e2b2b;
+  cursor: pointer;
+  box-shadow: 0px 0px 0.5px 1px;
+}
+
+.deleteTransaction:hover {
+  background-color: #9e2b2b;
+  color: white;
+  box-shadow: 0px 0px 1px 1px;
+}
+
+div.transaction div.datetime {
+  font-size: 0.7rem;
+  color: #888;
+}
+
+p.message {
+  font-size: 0.8rem;
+  font-style: italic;
+}
